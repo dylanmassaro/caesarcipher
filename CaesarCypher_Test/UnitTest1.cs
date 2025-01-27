@@ -3,9 +3,10 @@ using CaesarCypher;
 public class UnitTest1
 {
     [Theory]
-    [InlineData("ij", "hi")]
-    public void Test1(string expectedMessage, string encodedMethod)
+    [InlineData("ij", "hi", 1)]
+    [InlineData("werhmi", "sandie", 4)]
+    public void Test1(string expectedMessage, string encodedMessage, int shift)
     {
-        Assert.Equal(expectedMessage, CaesarCipher.Encode("hi",1));
+        Assert.Equal(expectedMessage, CaesarCipher.Encode(encodedMessage,shift));
     }
 }

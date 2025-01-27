@@ -102,3 +102,4 @@
 /Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher_Test/obj/Debug/net8.0/CaesarCypher_Test.pdb
 /Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher_Test/obj/Debug/net8.0/CaesarCypher_Test.genruntimeconfig.cache
 /Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher_Test/obj/Debug/net8.0/ref/CaesarCypher_Test.dll
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher_Test/obj/Debug/net8.0/CaesarCypher_Test.sourcelink.json
