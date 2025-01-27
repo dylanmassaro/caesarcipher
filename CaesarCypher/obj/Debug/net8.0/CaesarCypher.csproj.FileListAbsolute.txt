@@ -12,3 +12,4 @@
 /Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.pdb
 /Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.genruntimeconfig.cache
 /Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/ref/CaesarCypher.dll
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.sourcelink.json
