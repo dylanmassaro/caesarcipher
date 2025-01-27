@@ -1,0 +1,14 @@
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.AssemblyInfoInputs.cache
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.AssemblyInfo.cs
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.csproj.CoreCompileInputs.cache
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/bin/Debug/net8.0/CaesarCypher
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/bin/Debug/net8.0/CaesarCypher.deps.json
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/bin/Debug/net8.0/CaesarCypher.runtimeconfig.json
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/bin/Debug/net8.0/CaesarCypher.dll
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/bin/Debug/net8.0/CaesarCypher.pdb
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.dll
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/refint/CaesarCypher.dll
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.pdb
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/CaesarCypher.genruntimeconfig.cache
+/Users/dylanmassaro/RiderProjects/CaesarCypher/CaesarCypher/obj/Debug/net8.0/ref/CaesarCypher.dll
