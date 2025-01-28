@@ -13,4 +13,14 @@ public class UnitTest1
     {
         Assert.Equal(expectedMessage, CaesarCipher.Encode(encodedMessage,shift));
     }
+
+    [Theory]
+    [InlineData("hi", "ij", 1)]
+
+    [InlineData("hello world", "olssv dvysk", 7)]
+
+    public void Test2(string expectedMessage, string encodedMessage, int shift)
+    {
+        Assert.Equal(expectedMessage, CaesarCipher.Decode(encodedMessage, shift));
+    }
 }

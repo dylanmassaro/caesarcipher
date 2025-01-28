@@ -36,9 +36,37 @@ public static class CaesarCipher
         return outputMessage;
     }
 
-    public static string Decode(string messsage, int shift)
+    public static string Decode(string message, int shift)
+    
     {
-        return "fart";
+        if (message == null)
+        {
+            throw new ArgumentNullException(nameof(message), "Input message cannot be null.");
+        }
+
+        shift = (shift % 26 + 26) % 26;
+
+        char[] buffer = message.ToCharArray();
+
+        for (int i = 0; i < buffer.Length; i++)
+        {
+            char letter = buffer[i];
+
+            if (char.IsLetter(letter))
+            {
+                char offset = char.IsUpper(letter) ? 'A' : 'a';
+                letter = (char)((((letter - offset) - shift + 26) % 26) + offset);
+            }
+
+            buffer[i] = letter;
+        }
+
+        string outputMessage = new string(buffer);
+
+        outputMessage = outputMessage.ToLower();
+
+        return outputMessage;
     }
+
     
 }
