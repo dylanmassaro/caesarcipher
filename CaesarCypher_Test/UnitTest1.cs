@@ -8,8 +8,6 @@ public class UnitTest1
     [InlineData("werhmi", "SANDIE", 4)]
     [InlineData(" werhmi ", " SANDIE ", 4)]
     [InlineData("olssv dvysk", "hello world", 7)]
-
-    
     
     public void Test1(string expectedMessage, string encodedMessage, int shift)
     {
