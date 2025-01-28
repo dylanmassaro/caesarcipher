@@ -11,7 +11,7 @@ public class UnitTest1
     
     public void Test1(string expectedMessage, string encodedMessage, int shift)
     {
-        Assert.Equal(expectedMessage, CaesarCipher.Encode(encodedMessage,shift));
+        Assert.Equal(expectedMessage, CaesarCypher.Encode(encodedMessage,shift));
     }
 
     [Theory]
@@ -21,6 +21,13 @@ public class UnitTest1
 
     public void Test2(string expectedMessage, string encodedMessage, int shift)
     {
-        Assert.Equal(expectedMessage, CaesarCipher.Decode(encodedMessage, shift));
+        Assert.Equal(expectedMessage, CaesarCypher.Decode(encodedMessage, shift));
     }
+
+    [Theory]
+    [InlineData("Hi my name is braeden", "Tu yk zmyq ue ndmqpqz")]
+    public void Test3(string expectedMessage, string encodedMessage)
+    {
+        Assert.Equal(expectedMessage.ToLower(), CaesarCypher.Crack(encodedMessage));
+    } 
 }
